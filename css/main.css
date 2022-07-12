@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/absolutvision-82TpEld0_e4-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     height:100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -105,8 +105,13 @@ html {
 
 body {
     height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* set height to 100% - these are important for allowing content to vertically align */
 }
+
+
 
 .wrapper {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
@@ -119,6 +124,8 @@ body {
 }
 
 .text {
+
+    margin: 0;
   width: 300px;
   height: 300px;
   padding: 10px;
@@ -127,6 +134,34 @@ body {
   align-items: center;
   background-color: grey;
 }
+
+.outer {
+    margin: 0;
+  height: 100%;
+  width: 100%;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+
+.outer2 {
+    margin: 0;
+  height: 100%;
+  width: 100%;
+  width: 425px;
+  height: 425px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: linen;
+}
+
+
 
 
 
@@ -139,7 +174,7 @@ body {
     display: flex;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    font-size: 1.25em;
+    font-size: 1.75em;
      justify-content: center;
      align-items: center;
     line-height: 1.5em;
